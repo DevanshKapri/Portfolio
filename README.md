@@ -12,6 +12,8 @@ A full stack web application the displays user portfolio and has a contact form 
 - other libraries and packages
 ### How it works?
 The website home page has portfolio information like Skills, Projects, Resume, etc. The user can fill out a contact form which stores the messages to a database which is then displayed in tabular format when the 'View' button is clicked.
+### How it works?
+The front end is made by using only HTML, CSS and JS - without using any frameworks like Bootstrap. Jinja is used as a python templating language to make the site more dynamic.
 ### Routing
 THe site has a default '/' route with GET and POST methods and a '/view' route with only GET method.
 ### Database
