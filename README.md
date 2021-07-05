@@ -11,7 +11,7 @@ A full stack web application the displays user portfolio and has a contact form 
 - Flask
 - other libraries and packages
 ### How it works?
-The website home page has portfolio information like SKills, Projects, Resume, etc. The user can fill out a contact form which stores the messages to a database which is then displayed in tabular format when the 'View' button is clicked.
+The website home page has portfolio information like Skills, Projects, Resume, etc. The user can fill out a contact form which stores the messages to a database which is then displayed in tabular format when the 'View' button is clicked.
 ### Routing
 THe site has a default '/' route with GET and POST methods and a '/view' route with only GET method.
 ### Database
