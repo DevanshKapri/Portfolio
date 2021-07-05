@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %} Messages {% endblock %}
+
+{% block css %}
+<link href="static/css/table.css" rel="stylesheet"> {% endblock %}
+
+{% block main %}
+
+
+<div class="table-box">
+    <div class="d-flex center">
+        <div class="heading d-flex center">
+            <h1>Messages</h1>
+        </div>
+    </div>
+    <div class="table-sec">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Subject</th>
+                    <th>Message</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for entry in history %}
+                <tr>
+                    <td>{{entry["name"]}}</td>
+                    <td>{{entry["email"]}}</td>
+                    <td>{{entry["subject"]}}</td>
+                    <td>{{entry["message"]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+</div>
+</div>
+
+{% endblock %}

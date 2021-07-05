@@ -1,0 +1,271 @@
+{% extends "layout.html" %}
+
+{% block title %} Home {% endblock %}
+
+
+{% block header %}
+<div id="home" class="container">
+    <div class="home d-flex">
+        <div class="home-text d-flex center">
+            <h5>WELCOME TO MY WEBSITE</h5>
+            <h1 class="d-flex">I'm &nbsp;
+                <div class="anim-txt">
+                    <li><span>Devansh Kapri</span></li>
+                    <li><span>an Engineer</span></li>
+                    <li><span>a Web Developer</span></li>
+                </div>
+            </h1>
+            <p>An inquisitive, energetic student<br>pursuing <b>B.Tech in Electronics and Communication from
+                    MANIT
+                    Bhopal</b>.
+                Seeking to leverage solid skills in collaboration, communication, and development as a
+                programmer.
+            </p>
+        </div>
+        <div class="d-flex home-img">
+            <img id="me" src="/static/img/home.png">
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<!--About Section-->
+
+<section id="about" class="about">
+    <div class="container d-flex center">
+        <div class="about-pic flex-item">
+            <img id="about-img" src="/static/img/about.jpg">
+        </div>
+        <div class="about-txt flex-item">
+            <h1 class="heading">About Me</h1>
+            <h3 class="about-name">I am <span>Devansh Kapri</span></h3>
+            <p>A proactive B. Tech Electronics and Communication student at MANIT Bhopal with strong academic
+                achievements
+                and technical experience. Possess coding skills along with practical knowledge of machines and
+                strong leadership and communication skills with fluency in English and Hindi. Keen to pursue a
+                career in sectors focusing on Artificial Intelligence, Data science and Web Development.
+            </p>
+
+            <div class="socials">
+                <a href="https://github.com/DevanshKapri" target="_blank"><img
+                        src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+                <a href="https://linkedin.com/in/devansh-kapri " target="_blank"><img
+                        src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Skills Section-->
+<section id="skills" class="skill d-flex center">
+    <div class="container d-flex center">
+        <div class="d-flex center">
+            <div class="heading">
+                <h1>My Skills</h1>
+            </div>
+        </div>
+        <div class="skill-box-container center">
+            <!--Skill 1-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/html.png">
+                    </div>
+                    <h3>
+                        HTML 5
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!--Skill 2-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/css.png">
+                    </div>
+                    <h3>
+                        CSS
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!--Skill 3-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/js.png">
+                    </div>
+                    <h3>
+                        JavaScript
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!--Skill 4-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/python.png">
+                    </div>
+                    <h3>
+                        Python/Flask
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!--Skill 5-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/sql.png">
+                    </div>
+                    <h3>
+                        SQLite
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+
+            <!--Skill 6-->
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="/static/img/cpp.png">
+                    </div>
+                    <h3>
+                        C/C++
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                        ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Projects Section-->
+<section id="projects" class="card d-flex center">
+    <div class="container d-flex center">
+        <div class="d-flex center">
+            <div class="heading">
+                <h1>Projects</h1>
+            </div>
+        </div>
+        <div class="card center">
+            <!--Card 1-->
+            <div class="card-box">
+                <div class="card-title">
+                    <div class="img">
+                        <img src="/static/img/covaccine.png">
+                    </div>
+                    <h3>
+                        <span style="color:rgb(42, 42, 92)">COVACCINE</span>
+                    </h3>
+                    <p> <i>A website for COVID-19 vaccination awareness.</i>
+                    <ul>
+                        <li>
+                            Provided services like vaccine availability, centre locator, COVID-19 FAQs, news
+                            update and quizzes.
+                        </li>
+                        <li>
+                            <a href="https://youtu.be/TWaPYQj9XuA" target="_blank">Implemented Python (flask) based backend</a> that
+                            provided real-time vaccination and
+                            COVID-19 summary using an API and SQLite database.
+                        </li>
+                    </ul>
+                    </p>
+                    <a href="https://devanshkapri.github.io/covaccine/" target="_blank" class="btn">Visit
+                        Site</a>
+
+                </div>
+            </div>
+
+            <!--Card 2-->
+            <div class="card-box">
+                <div class="card-title">
+                    <div class="img">
+                        <img src="/static/img/finance.png">
+                    </div>
+                    <h3>
+                        <span style="color: rgb(243, 75, 75);">CS50 Finance</span>
+                    </h3>
+                    <p> <i>A web based application via which users can simulate stock trading </i>
+                    <ul>
+                        <li>
+                            Implementation of register, quote, buy, sell, index, transaction history features
+                            under the CS50 finance project.
+
+                        </li>
+                        <li>
+                            Created a Python (flask) based web application to get live stock prices using APIs
+                            and used SQLite DBMS to store user data.
+
+                        </li>
+                    </ul>
+                    </p>
+                    <a href="https://github.com/DevanshKapri/CS50-finance" target="_blank" class="btn">View
+                        code</a>
+                </div>
+            </div>
+
+            <!--Skill 3-->
+            <div class="card-box">
+                <div class="card-title">
+                    <div class="img">
+                        <img src="/static/img/resume.jpeg">
+                    </div>
+                    <h3>
+                        Download Resume
+                    </h3>
+                    <p>Click on the button below to download my resume for further project and achievement
+                        details.</p>
+                    <a href="/static/resume/Resume.pdf" target="_blank" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---Contact Section--->
+<section id="contact" class="contact">
+    <div class="contact-heading">
+        <h1>Get in Touch</h1>
+    </div>
+    <div class="contact-form">
+        <div class="d-flex center">
+            <form id="form" action="/" method="post">
+                <div class="d-flex">
+                    <input name="name" type="text" class="form-input" placeholder="Full Name" required>
+                    <input name="subject" type="text" class="form-input" placeholder="Subject" required>
+                </div>
+                <div class="d-flex">
+                    <input name="email" type="email" class="form-input" placeholder="Email" required>
+                </div>
+                <div class="d-flex">
+                    <textarea name="message" class="form-input" placeholder="Message" rows="4" required></textarea>
+                </div>
+                <div class="button d-flex">
+                    <div class="d-flex"><button type="submit" class="btn">Submit</button></div>
+                    <div class="d-flex"><a href="{{url_for('view')}}" class="btn">View</a></button></div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
