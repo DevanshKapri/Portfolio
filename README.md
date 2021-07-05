@@ -1,6 +1,7 @@
 # Portfolio
 ## About the project
 A full stack web application the displays user portfolio and has a contact form which and submit and view messages.
+## Site Demo: [My Portfolio](https://devansh-portfolio.herokuapp.com/)
 ### Languages/libraries Used
 - Python
 - JS/ jquery
@@ -9,7 +10,7 @@ A full stack web application the displays user portfolio and has a contact form 
 - Flask
 - other libraries and packages
 ### How it works?
-The website home page has portfolio information like SKills, Porjects, Resume, etc. The user can fill out a contact form which stores the messages to a database which is then displayed in tabular format when the 'View' button is clicked.
+The website home page has portfolio information like SKills, Projects, Resume, etc. The user can fill out a contact form which stores the messages to a database which is then displayed in tabular format when the 'View' button is clicked.
 ### Routing
 THe site has a default '/' route with GET and POST methods and a '/view' route with only GET method.
 ### Database
